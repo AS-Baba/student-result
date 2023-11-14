@@ -52,7 +52,7 @@ body{
 .col {
     height: 400px;
     margin: 10px;
-    background-color: black;
+    /* background-color: black; */
 }
 
 /* setting diff width to all columns */
@@ -78,12 +78,12 @@ body{
     line-height: 25px;
     padding: 5px;
     margin-bottom: 25px;
+    color: #11203fff;
 }
 .col1 div{
     display: flex;
     align-items: center;
     font-size: 1.5em;
-    background-color: #5ee2e7ff;
        
 }
 
@@ -94,5 +94,17 @@ body{
     margin-left: 45px;
 }
 /* Style use of liberary  */
-.useOfLiberary p{
+.useOfLiberary {
+        background-color: #5ee2e7ff;
+}
+
+.communicationSkill{
+        background-color: #d0a4d9ff;;
+}
+
+.homeWork{
+    background-color: #39b5ffff;
+}
+.LearningSkill{
+    background-color: #dad9d7ff;
 }
