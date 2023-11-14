@@ -42,3 +42,11 @@ body{
     font-weight: 900;
 
 }
+
+/* Styling the all the .col classes */
+.col {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    background-color: black;
+}
