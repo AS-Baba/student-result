@@ -73,7 +73,7 @@ body{
 /* styling all the subjects containers */
 .col div{
     width: 250px;
-    height: 65px;
+    height: 55px;
     border-radius: 5px;
     line-height: 25px;
     padding: 5px;
@@ -81,8 +81,8 @@ body{
 }
 .col1 div{
     float: right;
+    font-size: 1.5em;
+    /* text-align: center; */
     background-color: #5ee2e7ff;
-    /* font-size: 1.1rem; */
-    text-align: center;
        
 }
