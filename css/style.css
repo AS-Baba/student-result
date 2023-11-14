@@ -3,6 +3,7 @@
     font-family: 'aakar';
 }
 
+
 /* This is to set p default margin to 0 */
 p {
     margin: 0;
@@ -87,10 +88,10 @@ body{
        
 }
 
-.col1 div p{
+.col1 div.sub section p{
     display: grid;
     align-items: center;
-    float: right;
+    /* float: right; */
     margin-left: 45px;
 }
 /* Style use of liberary  */
@@ -107,4 +108,22 @@ body{
 }
 .LearningSkill{
     background-color: #dad9d7ff;
+}
+
+.col1 div .badge{
+    display: inline;
+    /* float: left; */
+    background-color: #11203fff;
+    color: #ffffff;
+    height:30px;
+    width: 30px;
+    font-size: 1em;
+    margin: 0;
+    /* display: grid; */
+        /* align-items: center; */
+        /* float: right; */
+        /* margin-left: 45px; */
+}
+.sub{
+
 }
