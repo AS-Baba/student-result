@@ -80,9 +80,19 @@ body{
     margin-bottom: 25px;
 }
 .col1 div{
-    float: right;
+    display: flex;
+    align-items: center;
     font-size: 1.5em;
-    /* text-align: center; */
     background-color: #5ee2e7ff;
        
+}
+
+.col1 div p{
+    display: grid;
+    align-items: center;
+    float: right;
+    margin-left: 45px;
+}
+/* Style use of liberary  */
+.useOfLiberary p{
 }
