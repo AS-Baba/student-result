@@ -71,9 +71,18 @@ body{
 }
 
 /* styling all the subjects containers */
-.subjectContainer{
-    width: 100%;
-    height: 50px;
-    margin:  20px 0;
-    background-color: bisque;
+.col div{
+    width: 250px;
+    height: 65px;
+    border-radius: 5px;
+    line-height: 25px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+.col1 div{
+    float: right;
+    background-color: #5ee2e7ff;
+    /* font-size: 1.1rem; */
+    text-align: center;
+       
 }
