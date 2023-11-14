@@ -1,0 +1,44 @@
+/* The entire document uses this font-family through out */
+* {
+    font-family: 'aakar';
+}
+
+/* This is to set p default margin to 0 */
+p {
+    margin: 0;
+}
+
+/* This the background for the entire page */
+body{
+    background-color: #f4f9ffff;
+}
+
+/* creating a row for all the elements in the hearder section and make them display inline*/
+.header .row{
+    display: flex;
+}
+/* Setting width for the brand container */
+.brand{
+   
+    width: 30%;
+}
+
+/* setting margin top and left to 10px for brand logo */
+.brand img{
+    margin: 10px 0 0 10px;
+}
+
+/* Styling the heading */
+.heading{
+    width: 40%;
+    text-align: center;
+    line-height: 35px;
+}
+
+/*Styling the heading text  */
+.heading h1{
+    color: #1e2d4aff;
+    font-size: 2em;
+    font-weight: 900;
+
+}
