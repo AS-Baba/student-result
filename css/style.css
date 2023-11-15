@@ -20,7 +20,7 @@ body{
 }
 /* Setting width for the brand container */
 .brand{
-    width: 30%;
+    width: 25%;
 }
 
 /* setting margin top and left to 10px for brand logo */
@@ -131,4 +131,40 @@ section{
 .sub {
     float:right;
     text-align: justify;
+}
+/* Styling second column */
+div.col2 div.userContainer{
+    width: 390px;
+    height: 400px;
+
+}
+div.col2 div.userContainer div.userBgContainer{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffcea3ff;
+}
+div.col2 div.userContainer div.userBgContainer div.circle{
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    margin-top: 10px;
+    border: 6px solid #11203fff ;
+    border-radius: 50%;
+}
+div.col2 div.userContainer div.userBgContainer div.circle div.userPhoto{
+    width: 100px;
+    height: 90px;
+    margin: auto;
+}
+div.col2 div.userContainer div.userBgContainer div.circle div.userId{
+    width: 150px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    line-height: 15px;
+    font-weight: 900;
 }
