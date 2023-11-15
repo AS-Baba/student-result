@@ -168,3 +168,8 @@ div.col2 div.userContainer div.userBgContainer div.circle div.userId{
     line-height: 15px;
     font-weight: 900;
 }
+div.col2 div.userContainer div.dashedLine{
+    border: none;
+    border-radius: 0;
+    border-top:  3px dotted #11203fff ;
+}
