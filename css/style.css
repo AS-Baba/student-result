@@ -73,7 +73,7 @@ body{
 
 /* styling all the subjects containers */
 .col div{
-    width: 250px;
+    width: 200px;
     height: 45px;
     border-radius: 5px;
     line-height: 25px;
@@ -97,7 +97,7 @@ section{
     display: grid;
     align-items: center;
     float: right;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 /* Style use of liberary  */
 .useOfLiberary {
@@ -117,7 +117,7 @@ section{
 
 .col1 div .badge{
     position: absolute;
-    left: 60px;
+    left: 100px;
     background-color: #11203fff;
     color: #ffffff;
     height:50px;
