@@ -169,7 +169,16 @@ div.col2 div.userContainer div.userBgContainer div.circle div.userId{
     font-weight: 900;
 }
 div.col2 div.userContainer div.dashedLine{
+    position: relative;
+    width: 120px;
     border: none;
     border-radius: 0;
     border-top:  3px dotted #11203fff ;
+    
+}
+div._-45deg{
+    left:20px;
+    bottom: 20px;
+    transform: rotate(-30deg);
+
 }
