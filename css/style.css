@@ -49,10 +49,7 @@ body{
 
 /* Styling the all the .col  */
 .col {
-    /* height: 400px; */
-    /* background-color: #11203fff; */
-    /* margin: 10px; */
-    /* background-color: black; */
+   
     border: 1px solid black;
 }
 
@@ -72,7 +69,7 @@ body{
 }
 
 /* styling all the subjects containers */
-.col div{
+div.col div{
     width: 200px;
     height: 45px;
     border-radius: 5px;
@@ -81,24 +78,29 @@ body{
     margin-bottom: 25px;
     color: #11203fff;
 }
-.col1 div{
+.col1 div, .col3 div{
     display: flex;
     align-items: center;
     font-size: 1.5em;
        
 }
 
-section{
-    float: right;
-    position: relative;
-}
-
-.col1 div.sub section p{
+div.col1 div.sub section p, div.col3 div.sub section p{
     display: grid;
     align-items: center;
-    float: right;
-    margin-left: 30px;
+    margin-top: 5px;
 }
+.col1 div.sub section p{
+    float: left;
+    margin-left: 30px;
+
+}
+
+div.col3 div.sub {
+    float: left;
+}
+
+
 /* Style use of liberary  */
 .useOfLiberary {
         background-color: #5ee2e7ff;
@@ -115,20 +117,49 @@ section{
     background-color: #dad9d7ff;
 }
 
-.col1 div .badge{
+/* styling col3 divs */
+div.col3 div.attendance{
+    background-color: #fddf59ff;
+}
+div.curiosityInLearning{
+    background-color: #ff5758ff;
+}
+div.curiosityInLearning section > p{
+    font-size: 17px;
+    line-height: 17px;
+
+}
+div.homeWorkQuality{
+    background-color:#fcbc58ff ;
+}
+div.pupilPunctuality{
+    background-color: #37c464ff;
+}
+
+/* Styling the badges */
+.col1 div .badge, div.col3 div.badge{
     position: absolute;
-    left: 100px;
-    background-color: #11203fff;
-    color: #ffffff;
+    text-align: center;
     height:50px;
     width: 50px;
     padding: 10px;
     border-radius: 50px;
     font-size: 1em;
     margin: 0;
-   
+    color: #ffffff;
+    background-color: #11203fff;
+    
 }
-.sub {
+div.col1 div .badge{
+    left: 100px;
+    
+
+}
+div.col3 div.sub div.badge{
+    right:  350px;
+}
+
+div.col1 div.sub {
     float:right;
     text-align: justify;
 }
@@ -168,6 +199,8 @@ div.col2 div.userContainer div.userBgContainer div.circle div.userId{
     line-height: 15px;
     font-weight: 900;
 }
+
+/* Styling the pointera */
 div.col2 div.userContainer div.dashedLine{
     position: relative;
     width: 120px;
