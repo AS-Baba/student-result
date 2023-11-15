@@ -20,7 +20,6 @@ body{
 }
 /* Setting width for the brand container */
 .brand{
-   
     width: 30%;
 }
 
@@ -41,7 +40,6 @@ body{
     color: #1e2d4aff;
     font-size: 2em;
     font-weight: 900;
-
 }
 
 /* styling container  */
@@ -51,9 +49,11 @@ body{
 
 /* Styling the all the .col  */
 .col {
-    height: 400px;
-    margin: 10px;
+    /* height: 400px; */
+    /* background-color: #11203fff; */
+    /* margin: 10px; */
     /* background-color: black; */
+    border: 1px solid black;
 }
 
 /* setting diff width to all columns */
@@ -74,7 +74,7 @@ body{
 /* styling all the subjects containers */
 .col div{
     width: 250px;
-    height: 55px;
+    height: 45px;
     border-radius: 5px;
     line-height: 25px;
     padding: 5px;
@@ -88,10 +88,15 @@ body{
        
 }
 
+section{
+    float: right;
+    position: relative;
+}
+
 .col1 div.sub section p{
     display: grid;
     align-items: center;
-    /* float: right; */
+    float: right;
     margin-left: 45px;
 }
 /* Style use of liberary  */
@@ -111,19 +116,19 @@ body{
 }
 
 .col1 div .badge{
-    display: inline;
-    /* float: left; */
+    position: absolute;
+    left: 60px;
     background-color: #11203fff;
     color: #ffffff;
-    height:30px;
-    width: 30px;
+    height:50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50px;
     font-size: 1em;
     margin: 0;
-    /* display: grid; */
-        /* align-items: center; */
-        /* float: right; */
-        /* margin-left: 45px; */
+   
 }
-.sub{
-
+.sub {
+    float:right;
+    text-align: justify;
 }
