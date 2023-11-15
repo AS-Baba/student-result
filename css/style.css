@@ -176,6 +176,12 @@ div.col2 div.userContainer div.dashedLine{
     border-top:  3px dotted #11203fff ;
     
 }
+div.col2 div.userContainer div.userBgContainer div.userName{
+    text-align: center;
+    margin-top:20px ;
+    font-weight: 600;
+    font-size: 1.2em;
+}
 div#one{
     left:20px;
     bottom: 20px;
