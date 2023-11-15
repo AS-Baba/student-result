@@ -81,7 +81,8 @@ div.col div{
 .col1 div, .col3 div{
     display: flex;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: 600;
        
 }
 
@@ -239,4 +240,28 @@ div#four {
     left: 7px;
     bottom: 430px;
     transform: rotate(30deg);
+}
+div#five{
+    width: 120px;
+    left: 270px;
+    bottom: 520px;
+    transform: rotate(-30deg);
+}
+div#six {
+    width: 100px;
+    left: 290px;
+    bottom: 540px;
+    transform: rotate(-20deg);
+}
+div#seven {
+    width: 100px;
+    left: 270px;
+    bottom: 570px;
+    transform: rotate(5deg);
+}
+div#eight {
+    width: 120px;
+    left: 240px;
+    bottom: 600px;
+    transform: rotate(20deg);
 }
