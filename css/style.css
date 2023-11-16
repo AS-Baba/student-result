@@ -304,3 +304,24 @@ div.distinctionContainer p{
     line-height: 20px;
 
 }
+
+/* Styling for print */
+@media print{
+    @page {
+        size: Landscape;
+        width: auto;
+        margin-top: 50px;
+    }
+    div.heading{
+        width: 500px;
+    }
+    div.col4{
+        width: 100px;
+    }
+    div.col1 div.badge{
+        left: 50px
+    }
+    div.col3 div.sub div.badge {
+        right: 160px;
+    }
+}
