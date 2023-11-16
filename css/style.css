@@ -248,7 +248,7 @@ div#five{
     transform: rotate(-30deg);
 }
 div#six {
-    width: 100px;
+    width: 90px;
     left: 290px;
     bottom: 540px;
     transform: rotate(-20deg);
@@ -261,7 +261,18 @@ div#seven {
 }
 div#eight {
     width: 120px;
-    left: 240px;
+    left: 245px;
     bottom: 600px;
-    transform: rotate(20deg);
+    transform: rotate(30deg);
+}
+/* Styling distinction container */
+div.distinctionContainer{
+    margin-top: 150px;
+}
+div.distinctionContainer p{
+    font-size: 1em;
+    font-weight: 600;
+    color: #11203fff;
+    line-height: 20px;
+
 }
