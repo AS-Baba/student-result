@@ -47,16 +47,9 @@ body{
     padding:0 50px;
 }
 
-/* Styling the all the .col  */
-.col {
-   
-    border: 1px solid black;
-}
-
 /* setting diff width to all columns */
 .col1{
     width: 300px;
-
 }
 .col2{
     width:400px;
@@ -153,9 +146,44 @@ div.pupilPunctuality{
 }
 div.col1 div .badge{
     left: 100px;
-    
+}
+
+/* Styling the books container */
+div.col1 div.books{
+    height: auto;
+}
+div.col1 div.books img{
+    margin-top: 20px;
+}
+
+/*Styling the Points and reward container  */
+div.col2 div.housePoints{
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 30px;
+    margin: auto;
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    background-color: #ffffff;
 
 }
+div.col2 div.housePoints p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+div.col3 div.educationContainer{
+    margin: auto;
+    height: auto;
+    float: right;
+}
+div.col3 div.educationContainer img{
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
 div.col3 div.sub div.badge{
     right:  350px;
 }
@@ -167,7 +195,7 @@ div.col1 div.sub {
 /* Styling second column */
 div.col2 div.userContainer{
     width: 390px;
-    height: 400px;
+    height: 300px;
 
 }
 div.col2 div.userContainer div.userBgContainer{
